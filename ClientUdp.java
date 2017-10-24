@@ -1,7 +1,7 @@
     //UDP Client Program 
     import java.net.*;  
     import java.util.*;
-    public class MyClient{  
+    public class ClientUdp{  
       public static void main(String[] args) throws Exception { 
         String se,re; 
         DatagramSocket ds = new DatagramSocket(3000); 
